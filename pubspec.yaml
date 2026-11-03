@@ -1,0 +1,68 @@
+name: islamic_daily_companion
+description: "Islamic Daily Companion — accurate prayer times, Adhan alerts, Qibla compass and digital tasbeeh. Fully offline, no account."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State management + local persistence (GetX)
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # Prayer-time engine (offline astronomical calculation) + Hijri calendar
+  adhan: ^2.0.0
+  hijri: ^3.0.0
+
+  # Fonts: Inter UI + Amiri for Arabic
+  google_fonts: ^6.2.1
+
+  # Location
+  geolocator: ^13.0.2
+  geocoding: ^3.0.0
+  permission_handler: ^11.3.1
+
+  # Notifications / scheduling
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.10.0
+  flutter_timezone: ^4.1.1
+  workmanager: ^0.7.0
+
+  # Qibla compass
+  flutter_compass: ^0.8.1
+
+  # Sharing, device features
+  share_plus: ^10.1.4
+  wakelock_plus: ^1.2.10
+  vibration: ^2.0.1
+  url_launcher: ^6.3.1
+
+  # Android home-screen widget data bridge
+  home_widget: ^0.7.0
+
+  intl: ^0.19.0
+  audioplayers: ^6.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    # Bundled fonts: the app is offline-first, so Inter + Amiri ship as
+    # assets and google_fonts runtime fetching is disabled in main().
+    - assets/fonts/
+    - assets/data/cities.json
+    - assets/audio/beep.wav
+    # TODO(release): replace this placeholder (currently the beep tone) with a
+    # properly licensed Adhan recording before any store release. Do NOT ship
+    # audio ripped from another app.
+    - assets/audio/adhan_1.mp3

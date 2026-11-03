@@ -1,0 +1,994 @@
+[
+{
+"name": "Karachi",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 24.8607,
+"lng": 67.0011,
+"utc": 5.0
+},
+{
+"name": "Lahore",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 31.5204,
+"lng": 74.3587,
+"utc": 5.0
+},
+{
+"name": "Islamabad",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 33.6844,
+"lng": 73.0479,
+"utc": 5.0
+},
+{
+"name": "Rawalpindi",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 33.5651,
+"lng": 73.0169,
+"utc": 5.0
+},
+{
+"name": "Faisalabad",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 31.4504,
+"lng": 73.135,
+"utc": 5.0
+},
+{
+"name": "Multan",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 30.1575,
+"lng": 71.5249,
+"utc": 5.0
+},
+{
+"name": "Peshawar",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 34.0151,
+"lng": 71.5249,
+"utc": 5.0
+},
+{
+"name": "Quetta",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 30.1798,
+"lng": 66.975,
+"utc": 5.0
+},
+{
+"name": "Hyderabad",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 25.396,
+"lng": 68.3578,
+"utc": 5.0
+},
+{
+"name": "Sialkot",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 32.4945,
+"lng": 74.5229,
+"utc": 5.0
+},
+{
+"name": "Gujranwala",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 32.1877,
+"lng": 74.1945,
+"utc": 5.0
+},
+{
+"name": "Bahawalpur",
+"country": "Pakistan",
+"countryCode": "PK",
+"lat": 29.3544,
+"lng": 71.6911,
+"utc": 5.0
+},
+{
+"name": "Delhi",
+"country": "India",
+"countryCode": "IN",
+"lat": 28.6139,
+"lng": 77.209,
+"utc": 5.5
+},
+{
+"name": "Mumbai",
+"country": "India",
+"countryCode": "IN",
+"lat": 19.076,
+"lng": 72.8777,
+"utc": 5.5
+},
+{
+"name": "Kolkata",
+"country": "India",
+"countryCode": "IN",
+"lat": 22.5726,
+"lng": 88.3639,
+"utc": 5.5
+},
+{
+"name": "Chennai",
+"country": "India",
+"countryCode": "IN",
+"lat": 13.0827,
+"lng": 80.2707,
+"utc": 5.5
+},
+{
+"name": "Bangalore",
+"country": "India",
+"countryCode": "IN",
+"lat": 12.9716,
+"lng": 77.5946,
+"utc": 5.5
+},
+{
+"name": "Hyderabad",
+"country": "India",
+"countryCode": "IN",
+"lat": 17.385,
+"lng": 78.4867,
+"utc": 5.5
+},
+{
+"name": "Ahmedabad",
+"country": "India",
+"countryCode": "IN",
+"lat": 23.0225,
+"lng": 72.5714,
+"utc": 5.5
+},
+{
+"name": "Lucknow",
+"country": "India",
+"countryCode": "IN",
+"lat": 26.8467,
+"lng": 80.9462,
+"utc": 5.5
+},
+{
+"name": "Srinagar",
+"country": "India",
+"countryCode": "IN",
+"lat": 34.0837,
+"lng": 74.7973,
+"utc": 5.5
+},
+{
+"name": "Kochi",
+"country": "India",
+"countryCode": "IN",
+"lat": 9.9312,
+"lng": 76.2673,
+"utc": 5.5
+},
+{
+"name": "Dhaka",
+"country": "Bangladesh",
+"countryCode": "BD",
+"lat": 23.8103,
+"lng": 90.4125,
+"utc": 6.0
+},
+{
+"name": "Chittagong",
+"country": "Bangladesh",
+"countryCode": "BD",
+"lat": 22.3569,
+"lng": 91.7832,
+"utc": 6.0
+},
+{
+"name": "Khulna",
+"country": "Bangladesh",
+"countryCode": "BD",
+"lat": 22.8456,
+"lng": 89.5403,
+"utc": 6.0
+},
+{
+"name": "Sylhet",
+"country": "Bangladesh",
+"countryCode": "BD",
+"lat": 24.9045,
+"lng": 91.8611,
+"utc": 6.0
+},
+{
+"name": "Kabul",
+"country": "Afghanistan",
+"countryCode": "AF",
+"lat": 34.5553,
+"lng": 69.2075,
+"utc": 4.5
+},
+{
+"name": "Kandahar",
+"country": "Afghanistan",
+"countryCode": "AF",
+"lat": 31.6289,
+"lng": 65.7372,
+"utc": 4.5
+},
+{
+"name": "Makkah",
+"country": "Saudi Arabia",
+"countryCode": "SA",
+"lat": 21.3891,
+"lng": 39.8579,
+"utc": 3.0
+},
+{
+"name": "Madinah",
+"country": "Saudi Arabia",
+"countryCode": "SA",
+"lat": 24.5247,
+"lng": 39.5692,
+"utc": 3.0
+},
+{
+"name": "Riyadh",
+"country": "Saudi Arabia",
+"countryCode": "SA",
+"lat": 24.7136,
+"lng": 46.6753,
+"utc": 3.0
+},
+{
+"name": "Jeddah",
+"country": "Saudi Arabia",
+"countryCode": "SA",
+"lat": 21.4858,
+"lng": 39.1925,
+"utc": 3.0
+},
+{
+"name": "Dammam",
+"country": "Saudi Arabia",
+"countryCode": "SA",
+"lat": 26.4207,
+"lng": 50.0888,
+"utc": 3.0
+},
+{
+"name": "Dubai",
+"country": "UAE",
+"countryCode": "AE",
+"lat": 25.2048,
+"lng": 55.2708,
+"utc": 4.0
+},
+{
+"name": "Abu Dhabi",
+"country": "UAE",
+"countryCode": "AE",
+"lat": 24.4539,
+"lng": 54.3773,
+"utc": 4.0
+},
+{
+"name": "Sharjah",
+"country": "UAE",
+"countryCode": "AE",
+"lat": 25.3573,
+"lng": 55.4033,
+"utc": 4.0
+},
+{
+"name": "Ajman",
+"country": "UAE",
+"countryCode": "AE",
+"lat": 25.4052,
+"lng": 55.5136,
+"utc": 4.0
+},
+{
+"name": "Doha",
+"country": "Qatar",
+"countryCode": "QA",
+"lat": 25.2854,
+"lng": 51.531,
+"utc": 3.0
+},
+{
+"name": "Kuwait City",
+"country": "Kuwait",
+"countryCode": "KW",
+"lat": 29.3759,
+"lng": 47.9774,
+"utc": 3.0
+},
+{
+"name": "Manama",
+"country": "Bahrain",
+"countryCode": "BH",
+"lat": 26.2285,
+"lng": 50.586,
+"utc": 3.0
+},
+{
+"name": "Muscat",
+"country": "Oman",
+"countryCode": "OM",
+"lat": 23.588,
+"lng": 58.3829,
+"utc": 4.0
+},
+{
+"name": "Baghdad",
+"country": "Iraq",
+"countryCode": "IQ",
+"lat": 33.3152,
+"lng": 44.3661,
+"utc": 3.0
+},
+{
+"name": "Tehran",
+"country": "Iran",
+"countryCode": "IR",
+"lat": 35.6892,
+"lng": 51.389,
+"utc": 3.5
+},
+{
+"name": "Mashhad",
+"country": "Iran",
+"countryCode": "IR",
+"lat": 36.2605,
+"lng": 59.6168,
+"utc": 3.5
+},
+{
+"name": "Amman",
+"country": "Jordan",
+"countryCode": "JO",
+"lat": 31.9454,
+"lng": 35.9284,
+"utc": 3.0
+},
+{
+"name": "Jerusalem",
+"country": "Palestine",
+"countryCode": "PS",
+"lat": 31.7683,
+"lng": 35.2137,
+"utc": 2.0
+},
+{
+"name": "Beirut",
+"country": "Lebanon",
+"countryCode": "LB",
+"lat": 33.8938,
+"lng": 35.5018,
+"utc": 2.0
+},
+{
+"name": "Damascus",
+"country": "Syria",
+"countryCode": "SY",
+"lat": 33.5138,
+"lng": 36.2765,
+"utc": 3.0
+},
+{
+"name": "Istanbul",
+"country": "Türkiye",
+"countryCode": "TR",
+"lat": 41.0082,
+"lng": 28.9784,
+"utc": 3.0
+},
+{
+"name": "Ankara",
+"country": "Türkiye",
+"countryCode": "TR",
+"lat": 39.9334,
+"lng": 32.8597,
+"utc": 3.0
+},
+{
+"name": "Izmir",
+"country": "Türkiye",
+"countryCode": "TR",
+"lat": 38.4192,
+"lng": 27.1287,
+"utc": 3.0
+},
+{
+"name": "Bursa",
+"country": "Türkiye",
+"countryCode": "TR",
+"lat": 40.1885,
+"lng": 29.061,
+"utc": 3.0
+},
+{
+"name": "Cairo",
+"country": "Egypt",
+"countryCode": "EG",
+"lat": 30.0444,
+"lng": 31.2357,
+"utc": 2.0
+},
+{
+"name": "Alexandria",
+"country": "Egypt",
+"countryCode": "EG",
+"lat": 31.2001,
+"lng": 29.9187,
+"utc": 2.0
+},
+{
+"name": "Khartoum",
+"country": "Sudan",
+"countryCode": "SD",
+"lat": 15.5007,
+"lng": 32.5599,
+"utc": 2.0
+},
+{
+"name": "Tripoli",
+"country": "Libya",
+"countryCode": "LY",
+"lat": 32.8966,
+"lng": 13.13,
+"utc": 2.0
+},
+{
+"name": "Tunis",
+"country": "Tunisia",
+"countryCode": "TN",
+"lat": 36.8065,
+"lng": 10.1815,
+"utc": 1.0
+},
+{
+"name": "Algiers",
+"country": "Algeria",
+"countryCode": "DZ",
+"lat": 36.7538,
+"lng": 3.0588,
+"utc": 1.0
+},
+{
+"name": "Casablanca",
+"country": "Morocco",
+"countryCode": "MA",
+"lat": 33.5731,
+"lng": -7.5898,
+"utc": 1.0
+},
+{
+"name": "Rabat",
+"country": "Morocco",
+"countryCode": "MA",
+"lat": 34.0209,
+"lng": -6.8416,
+"utc": 1.0
+},
+{
+"name": "Lagos",
+"country": "Nigeria",
+"countryCode": "NG",
+"lat": 6.5244,
+"lng": 3.3792,
+"utc": 1.0
+},
+{
+"name": "Kano",
+"country": "Nigeria",
+"countryCode": "NG",
+"lat": 12.0022,
+"lng": 8.592,
+"utc": 1.0
+},
+{
+"name": "Nairobi",
+"country": "Kenya",
+"countryCode": "KE",
+"lat": -1.2921,
+"lng": 36.8219,
+"utc": 3.0
+},
+{
+"name": "Dar es Salaam",
+"country": "Tanzania",
+"countryCode": "TZ",
+"lat": -6.7924,
+"lng": 39.2083,
+"utc": 3.0
+},
+{
+"name": "Johannesburg",
+"country": "South Africa",
+"countryCode": "ZA",
+"lat": -26.2041,
+"lng": 28.0473,
+"utc": 2.0
+},
+{
+"name": "Cape Town",
+"country": "South Africa",
+"countryCode": "ZA",
+"lat": -33.9249,
+"lng": 18.4241,
+"utc": 2.0
+},
+{
+"name": "Addis Ababa",
+"country": "Ethiopia",
+"countryCode": "ET",
+"lat": 8.9806,
+"lng": 38.7578,
+"utc": 3.0
+},
+{
+"name": "Mogadishu",
+"country": "Somalia",
+"countryCode": "SO",
+"lat": 2.0469,
+"lng": 45.3182,
+"utc": 3.0
+},
+{
+"name": "Kuala Lumpur",
+"country": "Malaysia",
+"countryCode": "MY",
+"lat": 3.139,
+"lng": 101.6869,
+"utc": 8.0
+},
+{
+"name": "Jakarta",
+"country": "Indonesia",
+"countryCode": "ID",
+"lat": -6.2088,
+"lng": 106.8456,
+"utc": 7.0
+},
+{
+"name": "Surabaya",
+"country": "Indonesia",
+"countryCode": "ID",
+"lat": -7.2575,
+"lng": 112.7521,
+"utc": 7.0
+},
+{
+"name": "Medan",
+"country": "Indonesia",
+"countryCode": "ID",
+"lat": 3.5952,
+"lng": 98.6722,
+"utc": 7.0
+},
+{
+"name": "Singapore",
+"country": "Singapore",
+"countryCode": "SG",
+"lat": 1.3521,
+"lng": 103.8198,
+"utc": 8.0
+},
+{
+"name": "Bangkok",
+"country": "Thailand",
+"countryCode": "TH",
+"lat": 13.7563,
+"lng": 100.5018,
+"utc": 7.0
+},
+{
+"name": "Manila",
+"country": "Philippines",
+"countryCode": "PH",
+"lat": 14.5995,
+"lng": 120.9842,
+"utc": 8.0
+},
+{
+"name": "Beijing",
+"country": "China",
+"countryCode": "CN",
+"lat": 39.9042,
+"lng": 116.4074,
+"utc": 8.0
+},
+{
+"name": "Shanghai",
+"country": "China",
+"countryCode": "CN",
+"lat": 31.2304,
+"lng": 121.4737,
+"utc": 8.0
+},
+{
+"name": "Urumqi",
+"country": "China",
+"countryCode": "CN",
+"lat": 43.8256,
+"lng": 87.6168,
+"utc": 8.0
+},
+{
+"name": "Tokyo",
+"country": "Japan",
+"countryCode": "JP",
+"lat": 35.6762,
+"lng": 139.6503,
+"utc": 9.0
+},
+{
+"name": "Seoul",
+"country": "South Korea",
+"countryCode": "KR",
+"lat": 37.5665,
+"lng": 126.978,
+"utc": 9.0
+},
+{
+"name": "Tashkent",
+"country": "Uzbekistan",
+"countryCode": "UZ",
+"lat": 41.2995,
+"lng": 69.2401,
+"utc": 5.0
+},
+{
+"name": "Almaty",
+"country": "Kazakhstan",
+"countryCode": "KZ",
+"lat": 43.222,
+"lng": 76.8512,
+"utc": 5.0
+},
+{
+"name": "Bishkek",
+"country": "Kyrgyzstan",
+"countryCode": "KG",
+"lat": 42.8746,
+"lng": 74.5698,
+"utc": 6.0
+},
+{
+"name": "Dushanbe",
+"country": "Tajikistan",
+"countryCode": "TJ",
+"lat": 38.5598,
+"lng": 68.787,
+"utc": 5.0
+},
+{
+"name": "Ashgabat",
+"country": "Turkmenistan",
+"countryCode": "TM",
+"lat": 37.9601,
+"lng": 58.3261,
+"utc": 5.0
+},
+{
+"name": "Baku",
+"country": "Azerbaijan",
+"countryCode": "AZ",
+"lat": 40.4093,
+"lng": 49.8671,
+"utc": 4.0
+},
+{
+"name": "London",
+"country": "United Kingdom",
+"countryCode": "GB",
+"lat": 51.5074,
+"lng": -0.1278,
+"utc": 0.0
+},
+{
+"name": "Birmingham",
+"country": "United Kingdom",
+"countryCode": "GB",
+"lat": 52.48,
+"lng": -1.8904,
+"utc": 0.0
+},
+{
+"name": "Manchester",
+"country": "United Kingdom",
+"countryCode": "GB",
+"lat": 53.4808,
+"lng": -2.2426,
+"utc": 0.0
+},
+{
+"name": "Bradford",
+"country": "United Kingdom",
+"countryCode": "GB",
+"lat": 53.796,
+"lng": -1.7594,
+"utc": 0.0
+},
+{
+"name": "Paris",
+"country": "France",
+"countryCode": "FR",
+"lat": 48.8566,
+"lng": 2.3522,
+"utc": 1.0
+},
+{
+"name": "Marseille",
+"country": "France",
+"countryCode": "FR",
+"lat": 43.2965,
+"lng": 5.3698,
+"utc": 1.0
+},
+{
+"name": "Berlin",
+"country": "Germany",
+"countryCode": "DE",
+"lat": 52.52,
+"lng": 13.405,
+"utc": 1.0
+},
+{
+"name": "Munich",
+"country": "Germany",
+"countryCode": "DE",
+"lat": 48.1351,
+"lng": 11.582,
+"utc": 1.0
+},
+{
+"name": "Hamburg",
+"country": "Germany",
+"countryCode": "DE",
+"lat": 53.5511,
+"lng": 9.9937,
+"utc": 1.0
+},
+{
+"name": "Amsterdam",
+"country": "Netherlands",
+"countryCode": "NL",
+"lat": 52.3676,
+"lng": 4.9041,
+"utc": 1.0
+},
+{
+"name": "Brussels",
+"country": "Belgium",
+"countryCode": "BE",
+"lat": 50.8503,
+"lng": 4.3517,
+"utc": 1.0
+},
+{
+"name": "Madrid",
+"country": "Spain",
+"countryCode": "ES",
+"lat": 40.4168,
+"lng": -3.7038,
+"utc": 1.0
+},
+{
+"name": "Barcelona",
+"country": "Spain",
+"countryCode": "ES",
+"lat": 41.3874,
+"lng": 2.1686,
+"utc": 1.0
+},
+{
+"name": "Rome",
+"country": "Italy",
+"countryCode": "IT",
+"lat": 41.9028,
+"lng": 12.4964,
+"utc": 1.0
+},
+{
+"name": "Stockholm",
+"country": "Sweden",
+"countryCode": "SE",
+"lat": 59.3293,
+"lng": 18.0686,
+"utc": 1.0
+},
+{
+"name": "Oslo",
+"country": "Norway",
+"countryCode": "NO",
+"lat": 59.9139,
+"lng": 10.7522,
+"utc": 1.0
+},
+{
+"name": "Copenhagen",
+"country": "Denmark",
+"countryCode": "DK",
+"lat": 55.6761,
+"lng": 12.5683,
+"utc": 1.0
+},
+{
+"name": "Vienna",
+"country": "Austria",
+"countryCode": "AT",
+"lat": 48.2082,
+"lng": 16.3738,
+"utc": 1.0
+},
+{
+"name": "Warsaw",
+"country": "Poland",
+"countryCode": "PL",
+"lat": 52.2297,
+"lng": 21.0122,
+"utc": 1.0
+},
+{
+"name": "Athens",
+"country": "Greece",
+"countryCode": "GR",
+"lat": 37.9838,
+"lng": 23.7275,
+"utc": 2.0
+},
+{
+"name": "Moscow",
+"country": "Russia",
+"countryCode": "RU",
+"lat": 55.7558,
+"lng": 37.6173,
+"utc": 3.0
+},
+{
+"name": "Kazan",
+"country": "Russia",
+"countryCode": "RU",
+"lat": 55.7887,
+"lng": 49.1221,
+"utc": 3.0
+},
+{
+"name": "New York",
+"country": "United States",
+"countryCode": "US",
+"lat": 40.7128,
+"lng": -74.006,
+"utc": -5.0
+},
+{
+"name": "Los Angeles",
+"country": "United States",
+"countryCode": "US",
+"lat": 34.0522,
+"lng": -118.2437,
+"utc": -8.0
+},
+{
+"name": "Chicago",
+"country": "United States",
+"countryCode": "US",
+"lat": 41.8781,
+"lng": -87.6298,
+"utc": -6.0
+},
+{
+"name": "Houston",
+"country": "United States",
+"countryCode": "US",
+"lat": 29.7604,
+"lng": -95.3698,
+"utc": -6.0
+},
+{
+"name": "Dearborn",
+"country": "United States",
+"countryCode": "US",
+"lat": 42.3223,
+"lng": -83.1763,
+"utc": -5.0
+},
+{
+"name": "San Francisco",
+"country": "United States",
+"countryCode": "US",
+"lat": 37.7749,
+"lng": -122.4194,
+"utc": -8.0
+},
+{
+"name": "Washington DC",
+"country": "United States",
+"countryCode": "US",
+"lat": 38.9072,
+"lng": -77.0369,
+"utc": -5.0
+},
+{
+"name": "Miami",
+"country": "United States",
+"countryCode": "US",
+"lat": 25.7617,
+"lng": -80.1918,
+"utc": -5.0
+},
+{
+"name": "Toronto",
+"country": "Canada",
+"countryCode": "CA",
+"lat": 43.6532,
+"lng": -79.3832,
+"utc": -5.0
+},
+{
+"name": "Montreal",
+"country": "Canada",
+"countryCode": "CA",
+"lat": 45.5017,
+"lng": -73.5673,
+"utc": -5.0
+},
+{
+"name": "Vancouver",
+"country": "Canada",
+"countryCode": "CA",
+"lat": 49.2827,
+"lng": -123.1207,
+"utc": -8.0
+},
+{
+"name": "Sydney",
+"country": "Australia",
+"countryCode": "AU",
+"lat": -33.8688,
+"lng": 151.2093,
+"utc": 10.0
+},
+{
+"name": "Melbourne",
+"country": "Australia",
+"countryCode": "AU",
+"lat": -37.8136,
+"lng": 144.9631,
+"utc": 10.0
+},
+{
+"name": "Auckland",
+"country": "New Zealand",
+"countryCode": "NZ",
+"lat": -36.8485,
+"lng": 174.7633,
+"utc": 12.0
+},
+{
+"name": "Sao Paulo",
+"country": "Brazil",
+"countryCode": "BR",
+"lat": -23.5505,
+"lng": -46.6333,
+"utc": -3.0
+},
+{
+"name": "Buenos Aires",
+"country": "Argentina",
+"countryCode": "AR",
+"lat": -34.6037,
+"lng": -58.3816,
+"utc": -3.0
+}
+]
