@@ -17,7 +17,7 @@
         android:textColor="#5F6F66" />
     <TextView
         android:id="@+id/widget_next_prayer"
-        android:layout_width="wrap_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textSize="22sp"
