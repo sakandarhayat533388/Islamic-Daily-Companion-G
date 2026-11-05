@@ -6,7 +6,9 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:islamic_daily_companion/core/app_services.dart';
 import 'package:islamic_daily_companion/core/app_theme.dart';
+import 'package:islamic_daily_companion/core/models.dart';
 import 'package:islamic_daily_companion/core/prayer_controller.dart';
+import 'package:islamic_daily_companion/core/prayer_engine.dart';
 import 'package:islamic_daily_companion/features/home/home_screen.dart';
 import 'package:islamic_daily_companion/features/shell/main_shell.dart';
 import 'package:islamic_daily_companion/features/tasbeeh/tasbeeh_controller.dart';
@@ -69,8 +71,23 @@ void main() {
     expect(find.text('DAILY DUA'), findsOneWidget);
     expect(find.text('Qibla'), findsWidgets);
     expect(find.text('Tasbeeh'), findsWidgets);
-    // The six prayer rows render their times in HH:mm form.
-    expect(find.text('05:23'), findsWidgets);
+    // The six prayer rows render their times in HH:mm form. The expected
+    // Fajr value is computed for TODAY (a hardcoded '05:23' was only true
+    // on 2026-11-03 and made this test date-brittle; golden-date accuracy
+    // is covered by prayer_engine_test.dart).
+    final s = AppSettingsData();
+    final today = PrayerEngine.calculate(
+      lat: s.lat,
+      lng: s.lng,
+      utcOffsetHours: s.utcOffsetHours,
+      date: DateTime.now(),
+      method: s.method,
+      hanafi: s.hanafi,
+      highLat: s.highLat,
+      adjustments: s.adjustments,
+    );
+    expect(find.text(PrayerController.fmtTime(today.timeFor(PrayerId.fajr))),
+        findsWidgets);
   });
 
   testWidgets('Tasbeeh renders and the ring tap increments the count',

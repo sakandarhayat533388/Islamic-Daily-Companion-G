@@ -220,16 +220,33 @@ class _HeroCard extends StatelessWidget {
                           ],
                         ),
                         const SizedBox(height: 6),
-                        Text(
-                          countdown,
-                          style: AppText.displayCountdown(
-                                  theme.textTheme.displayLarge!)
-                              .copyWith(color: Colors.white),
+                        // Countdown must always stay on ONE line: at 48px the
+                        // 8 digits are wider than this 65% column on phones,
+                        // so scale down to fit instead of wrapping mid-time.
+                        FittedBox(
+                          fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            countdown,
+                            maxLines: 1,
+                            softWrap: false,
+                            style: AppText.displayCountdown(
+                                    theme.textTheme.displayLarge!)
+                                .copyWith(color: Colors.white),
+                          ),
                         ),
-                        Text(
-                          'remaining until ${cn.next.label}',
-                          style: AppText.caption(theme.textTheme.bodyMedium!)
-                              .copyWith(color: Colors.white.withValues(alpha: 0.75)),
+                        FittedBox(
+                          fit: BoxFit.scaleDown,
+                          alignment: Alignment.centerLeft,
+                          child: Text(
+                            'remaining until ${cn.next.label}',
+                            maxLines: 1,
+                            softWrap: false,
+                            style: AppText.caption(theme.textTheme.bodyMedium!)
+                                .copyWith(
+                                    color:
+                                        Colors.white.withValues(alpha: 0.75)),
+                          ),
                         ),
                       ],
                     ),
