@@ -17,6 +17,10 @@ import '../tasbeeh/tasbeeh_controller.dart';
 const String kPrivacyPolicyUrl =
     'https://docs.google.com/document/d/1DPtRlJm8NEjXVqUBB2ros2Bw-C5_Ii3MGk77k4uqo3U/edit?usp=sharing';
 
+/// Hosted full Terms & Conditions (Google Docs, owner-provided 2026-11-05).
+const String kTermsUrl =
+    'https://docs.google.com/document/d/1L6t56ty6wZl-PalhqsOfZeyJz7n7D2Wak-gQI1BFBdg/edit?usp=sharing';
+
 /// S06 — Settings. Six groups in the locked spec order:
 /// Location, Calculation, Adhan & Alerts, Tasbeeh, Appearance, About.
 class SettingsScreen extends StatelessWidget {
@@ -319,6 +323,13 @@ class SettingsScreen extends StatelessWidget {
                   onTap: () => _showPrivacy(context),
                 ),
                 const RowDivider(),
+                SettingsRow(
+                  icon: Icons.description_outlined,
+                  title: 'Terms & Conditions',
+                  trailing: chevronValue(''),
+                  onTap: () => _showTerms(context),
+                ),
+                const RowDivider(),
                 const SettingsRow(
                   icon: Icons.badge_outlined,
                   title: 'Version',
@@ -445,6 +456,33 @@ class SettingsScreen extends StatelessWidget {
               mode: LaunchMode.externalApplication,
             ),
             child: const Text('Open full policy'),
+          ),
+        ],
+      ),
+    );
+  }
+
+  void _showTerms(BuildContext context) {
+    Get.dialog(
+      AlertDialog(
+        title: const Text('Terms & Conditions'),
+        content: const SingleChildScrollView(
+          child: Text(
+            'By using Islamic Daily Companion you agree to the full Terms & Conditions. In short:\n\n'
+            '· The app is free for personal use on your own devices.\n'
+            '· Prayer times are calculated on your phone and are a guide — please verify against your local mosque where exactness matters.\n'
+            '· Adhan alerts depend on your device settings and battery optimisation, so the app cannot guarantee every alert on every device.\n'
+            '· Qibla direction is an aid based on your device compass, which magnetic interference can affect.',
+          ),
+        ),
+        actions: [
+          TextButton(onPressed: () => Get.back(), child: const Text('Close')),
+          TextButton(
+            onPressed: () => launchUrl(
+              Uri.parse(kTermsUrl),
+              mode: LaunchMode.externalApplication,
+            ),
+            child: const Text('Open full terms'),
           ),
         ],
       ),
