@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:permission_handler/permission_handler.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../core/app_services.dart';
 import '../../core/app_theme.dart';
@@ -10,6 +11,11 @@ import '../../core/prayer_engine.dart';
 import '../../widgets/common_widgets.dart';
 import '../onboarding/onboarding_screens.dart' show showCityPicker;
 import '../tasbeeh/tasbeeh_controller.dart';
+
+/// Hosted full Privacy Policy (Google Docs, owner-provided 2026-11-05).
+/// The same URL is used in the Play Store listing.
+const String kPrivacyPolicyUrl =
+    'https://docs.google.com/document/d/1DPtRlJm8NEjXVqUBB2ros2Bw-C5_Ii3MGk77k4uqo3U/edit?usp=sharing';
 
 /// S06 — Settings. Six groups in the locked spec order:
 /// Location, Calculation, Adhan & Alerts, Tasbeeh, Appearance, About.
@@ -418,9 +424,9 @@ class SettingsScreen extends StatelessWidget {
 
   void _showPrivacy(BuildContext context) {
     Get.dialog(
-      const AlertDialog(
-        title: Text('Privacy Policy'),
-        content: SingleChildScrollView(
+      AlertDialog(
+        title: const Text('Privacy Policy'),
+        content: const SingleChildScrollView(
           child: Text(
             'Islamic Daily Companion is designed to be private by construction:\n\n'
             '· No account, no sign-up, no analytics, no ads.\n'
@@ -428,10 +434,19 @@ class SettingsScreen extends StatelessWidget {
             '· Prayer times are calculated on-device; the app works fully offline.\n'
             '· Tasbeeh history and settings are stored only on this phone.\n'
             '· The app requests location, notification and exact-alarm permissions only for the features described above.\n\n'
-            'If a hosted policy page is published, its URL will be added here and in the Play Store listing.',
+            'The full Privacy Policy is published online and is the same one linked in the Play Store listing.',
           ),
         ),
-        actions: [],
+        actions: [
+          TextButton(onPressed: () => Get.back(), child: const Text('Close')),
+          TextButton(
+            onPressed: () => launchUrl(
+              Uri.parse(kPrivacyPolicyUrl),
+              mode: LaunchMode.externalApplication,
+            ),
+            child: const Text('Open full policy'),
+          ),
+        ],
       ),
     );
   }
