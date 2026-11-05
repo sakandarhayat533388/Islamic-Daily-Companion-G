@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Adaptive-icon background: the app's deep-green brand gradient
+     (#0B6B3A top -> #084F2B bottom), matching the crescent icon artwork. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#0B6B3A"
+        android:endColor="#084F2B"
+        android:angle="270" />
+</shape>
